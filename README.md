@@ -91,4 +91,4 @@ journal/        Research notes and discoveries
 
 To explore whether enterprise business semantics can become a governed, version-controlled layer that enables AI systems to reason consistently about business concepts while keeping humans responsible for business truth.
 
-# Data is plentiful. Business meaning is scarce.
+> **Data is plentiful. Business meaning is scarce.**
