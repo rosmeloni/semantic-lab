@@ -1,4 +1,4 @@
-# Competitor Analysis
+# Landscape Analysis
 
 ## Purpose
 
