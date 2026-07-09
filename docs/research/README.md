@@ -1,31 +1,43 @@
-# Landscape Analysis
+# Research
 
 ## Purpose
 
-semantic-lab is a research project. Before attempting to solve a problem, it is essential to understand the current landscape.
+This section documents the research carried out as part of semantic-lab.
 
-This document explores existing products, research and technologies that address enterprise semantics, data governance, knowledge representation and AI-assisted business understanding.
+Its objective is to understand the current state of enterprise semantics, data governance, knowledge representation and AI-assisted business understanding before proposing new solutions.
 
-The goal is **not** to prove that semantic-lab is unique. Instead, it is to understand:
+Research should be evidence-based and, where possible, supported by references to academic papers, industry articles, existing products and practical experiments.
 
-- What problems are already being solved?
-- Which assumptions do existing solutions make?
-- What approaches are emerging?
-- Where do gaps still exist?
-- Where can semantic-lab contribute something genuinely new?
+## Areas of investigation
+
+This research currently focuses on:
+
+- Semantic layers
+- Data catalogs
+- Business glossaries
+- Knowledge graphs
+- Enterprise ontologies
+- AI agents
+- Metadata management
+- Data governance
+- Semantic evolution
+- Explainable AI
 
 ## Guiding Questions
 
-- Is someone already solving this problem?
-- What capabilities already exist?
-- What limitations do current approaches have?
-- Are we reinventing the wheel, or extending it?
-- How is AI changing this landscape?
-- Which problems remain unsolved?
+- What problems are already being solved?
+- What assumptions do existing solutions make?
+- What capabilities are emerging?
+- Which challenges remain unresolved?
+- How might AI change semantic governance?
+- Where can semantic-lab contribute with something genuinely new?
 
-## Living Document
+## Research Principles
 
-This document will evolve as research progresses. Findings should be evidence-based and include references whenever possible.
+The goal is not to prove an existing solution is inadequate.
 
-Discovering that an idea already exists is considered progress. Discovering a genuine gap is even better.
+The goal is to understand the current landscape, learn from it, identify gaps and continuously refine the project's hypotheses.
 
+Finding that an idea already exists is valuable.
+
+Understanding why it exists is even more valuable.
