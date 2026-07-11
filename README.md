@@ -10,6 +10,8 @@ Today, business concepts such as *Customer*, *Revenue*, *Active User* or *Churn*
 
 Semantic-lab is an open research project exploring whether a combination of **human governance** and **specialised AI agents** can continuously maintain a shared, machine-readable representation of enterprise business meaning.
 
+The focus is not semantic search or vector databases, but enabling AI agents and humans to collaboratively build, evolve and govern an organisation’s shared business understanding.
+
 ---
 
 ## Vision
