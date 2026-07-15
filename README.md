@@ -1,96 +1,170 @@
-# semantic-lab
+# Semantic Lab
 
-> Exploring how humans and AI agents can collaboratively build, govern and evolve enterprise business semantics.
+> **Exploring how AI agents can bootstrap, govern and continuously evolve enterprise business semantics.**
 
-## Overview
+Semantic Lab is an independent research project exploring how organisations can build and maintain a shared understanding of their business using AI.
 
-As organisations increasingly adopt AI for analytics, automation and decision support, one challenge remains largely unsolved: **business meaning**.
+Rather than treating business semantics as static documentation that humans manually create and maintain, this project investigates whether specialised AI agents can continuously discover, reconcile, validate and evolve enterprise knowledge from organisational evidence while keeping humans accountable for important business decisions.
 
-Today, business concepts such as *Customer*, *Revenue*, *Active User* or *Churn* are often defined differently across departments, reports, applications and documentation. This inconsistency leads to conflicting metrics, duplicated effort, governance challenges and unreliable AI responses.
-
-Semantic-lab is an open research project exploring whether a combination of **human governance** and **specialised AI agents** can continuously maintain a shared, machine-readable representation of enterprise business meaning.
-
-The focus is not semantic search or vector databases, but enabling AI agents and humans to collaboratively build, evolve and govern an organisation’s shared business understanding.
+The project combines ideas from semantic layers, knowledge graphs, metadata management, data governance and agentic AI.
 
 ---
 
-## Vision
+# Why this project?
 
-Rather than replacing human decision making, AI should help organisations maintain semantic consistency.
+Every organisation depends on shared business concepts.
 
-Humans remain responsible for defining business truth.
+- Customer
+- Revenue
+- Product
+- Active User
+- Churn
+- SLA
+- Region
+- Order
 
-AI agents assist by:
+Yet these concepts are often:
 
-- detecting semantic inconsistencies
-- analysing downstream impact
-- maintaining documentation
-- validating implementations
-- identifying semantic drift
-- supporting governance workflows
+- duplicated across teams
+- inconsistently defined
+- buried inside reports and dashboards
+- embedded in SQL and application code
+- disconnected from business documentation
+- manually maintained
+- quickly outdated
 
-The objective is to create a semantic foundation that can be shared consistently across:
+Current semantic and metadata platforms have significantly improved how organisations document and expose business knowledge.
 
-- Analytics
-- Applications
-- Documentation
-- Data Platforms
-- AI Assistants
-- Enterprise Knowledge
+Semantic Lab explores a different question:
 
----
+> **Can semantic governance itself become a continuous, evidence-based reasoning process driven by specialised AI agents?**
 
-## Research Questions
+Instead of asking people to manually curate thousands of business definitions, could AI continuously analyse organisational evidence, propose semantic improvements, detect inconsistencies and surface uncertainty for human review?
 
-This project investigates questions such as:
-
-- How should business concepts be represented so they are understandable by both humans and AI?
-- Can semantic changes be version-controlled like software?
-- Can AI agents reliably detect semantic inconsistencies?
-- How can business meaning be kept consistent across systems?
-- What information should remain under human ownership?
+> **The ambition is not to build another metadata catalogue, but to explore whether enterprise semantics can become a living system that continuously learns, reasons and improves from organisational evidence.**
 
 ---
 
-## Guiding Principles
+# Vision
 
-- Business meaning is owned by humans.
-- AI proposes; humans approve.
-- Every semantic concept should be versioned.
-- Every semantic change should be traceable.
-- Semantic definitions should be reusable across the enterprise.
-- The system should remain vendor-neutral.
+Semantic Lab explores the idea of an AI-native Semantic Operating System that continuously discovers, governs and evolves enterprise business semantics.
 
----
+Rather than relying on periodic governance projects, the system would continuously:
 
-## Current Status
+- discover business concepts
+- infer relationships between concepts
+- detect duplicate or overlapping definitions
+- reconcile conflicting terminology
+- monitor semantic drift over time
+- detect semantic misalignment across organisational artefacts
+- identify changes that invalidate previously approved business concepts
+- preserve provenance and supporting evidence
+- explain why conclusions were reached
+- collaborate with business experts when judgement or approval is required
 
-🚧 Early research
-
-The project currently focuses on:
-
-- defining the semantic object model
-- surveying existing solutions
-- identifying gaps in current semantic governance
-- building small experiments to validate hypotheses
+AI performs continuous semantic reasoning while humans remain accountable for business meaning.
 
 ---
 
-## Repository Structure
+# Design Principles
 
+## Evidence before opinion
+
+Every semantic conclusion should be traceable back to supporting organisational evidence.
+
+## Humans remain accountable
+
+AI should support semantic governance, not replace business ownership.
+
+Human involvement should be proportional to ambiguity, confidence and business impact.
+
+## Small experiments validate large ideas
+
+Large architectural ideas should emerge from practical experiments.
+
+Each prototype should answer a concrete research question.
+
+## Specialised agents
+
+Rather than relying on a single general-purpose AI assistant, Semantic Lab explores a collection of specialised agents with clearly bounded responsibilities.
+
+Examples include:
+
+- **Discovery Agent** — *What business concepts, systems and relationships exist?*
+- **Evidence Agent** — *What organisational evidence supports this semantic concept?*
+- **Reconciliation Agent** — *Do different artefacts describe the same business concept?*
+- **Change Detection Agent** — *What has changed since the last observation?*
+- **Consistency Agent** — *Does the organisation remain semantically aligned across systems and documentation?*
+- **Governance Agent** — *Does this change require human review or approval?*
+- **Learning Agent** — *What can be learned from previous decisions to improve future reasoning?*
+
+The exact set of agents will evolve as research progresses, but the project investigates whether separating semantic responsibilities into specialised reasoning agents leads to more transparent, explainable and maintainable enterprise semantics.
+
+## Continuous evolution
+
+Enterprise semantics should evolve continuously as organisations, systems and business processes change.
+
+---
+
+# Repository
+
+The repository is organised around several complementary areas.
+
+```text
+agents/          AI agent prompts and prototypes
+architecture/    System architecture and design decisions
+docs/            Research papers, hypotheses and experiments
+journal/         Chronological research journal
 ```
-docs/           Vision, research and architecture
-semantics/      Business concepts and semantic models
-agents/         AI agent definitions and prototypes
-experiments/    Research experiments
-datasets/       Sample and synthetic datasets
-journal/        Research notes and discoveries
-```
+
+The repository evolves continuously as new experiments validate, refine or challenge previous assumptions.
 
 ---
 
-## Long-term Goal
+# Research Areas
 
-To explore whether enterprise business semantics can become a governed, version-controlled layer that enables AI systems to reason consistently about business concepts while keeping humans responsible for business truth.
+Current areas of investigation include:
 
-> **Data is plentiful. Business meaning is scarce.**
+- Enterprise Semantic Layers
+- Agentic AI
+- Business Metadata
+- Semantic Governance
+- Knowledge Graphs
+- Business Ontologies
+- Active Metadata
+- Explainable AI
+- Provenance
+- Human-AI Collaboration
+- Semantic Drift
+- Enterprise Knowledge Systems
+
+---
+
+# Contributing
+
+This repository currently documents an individual research project.
+
+Discussions, constructive feedback and alternative ideas are always welcome.
+
+If these research questions interest you, feel free to open an issue or start a discussion.
+
+---
+
+# Disclaimer
+
+Semantic Lab is an independent research project.
+
+The ideas documented here represent ongoing exploration rather than production-ready software.
+
+Both successful and unsuccessful experiments are intentionally documented as part of the research process.
+
+---
+
+# About the Author
+
+Semantic Lab is an independent research project by **Rossella Meloni**.
+
+To learn more about my background, interests and other projects:
+
+- **GitHub:** https://github.com/rosmeloni
+- **LinkedIn:** https://www.linkedin.com/in/rossellameloni/
