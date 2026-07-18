@@ -1,0 +1,16 @@
+datasets:
+
+  enron:
+
+    source: Carnegie Mellon University
+
+    version: 2015-05-07
+
+    status: active
+
+    local_sample:
+      emails: 10
+
+    notes:
+      Original CMU release used for Semantic Lab experiments.
+      https://www.cs.cmu.edu/~enron/enron_mail_20150507.tar.gz 
