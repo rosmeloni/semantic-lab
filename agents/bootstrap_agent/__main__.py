@@ -1,21 +1,27 @@
 """Command-line entry point for Bootstrap Agent v1."""
 
+import argparse
 from pathlib import Path
+
+from agents.bootstrap_agent.discovery import discover_artifacts
 
 
 def main() -> None:
-    """Load and display the first sample business document."""
-    document_path = Path("datasets/sample_company/company_overview.md")
+    """Discover candidate artefacts in a directory tree."""
+    parser = argparse.ArgumentParser(description="Discover organisational artefacts")
+    parser.add_argument("root", nargs="?", default=".", help="Directory to scan")
+    args = parser.parse_args()
 
-    if not document_path.exists():
-        print(f"Document not found: {document_path}")
+    root_path = Path(args.root)
+    artifacts = discover_artifacts(root_path)
+
+    if not artifacts:
+        print(f"No artefacts found in {root_path}")
         return
 
-    document_content = document_path.read_text(encoding="utf-8")
-
-    print(f"Loaded document: {document_path}")
-    print("-" * 60)
-    print(document_content)
+    print(f"Discovered {len(artifacts)} artefact(s) in {root_path}")
+    for artifact in artifacts:
+        print(f"- {artifact.kind}: {artifact.path}")
 
 
 if __name__ == "__main__":
