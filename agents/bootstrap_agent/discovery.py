@@ -36,6 +36,8 @@ def discover_artifacts(root: Path | str) -> List[Artifact]:
 
         if suffix in {".md", ".txt", ".rst", ".pdf"}:
             kind = "document"
+        elif suffix == ".eml":
+            kind = "email"
         elif suffix in {".py", ".js", ".ts", ".java", ".go", ".rs", ".cpp", ".c", ".cs"}:
             kind = "code"
         elif suffix in {".yaml", ".yml", ".json", ".xml", ".csv"}:
